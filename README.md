@@ -88,7 +88,6 @@ precalculated output instead of performing the exercise correctly.
 * Have a question? Ask your neighbor on the right. If that fails, try your neighbor
 on the left.
 * Your reference material: peers / Internet / Google.
-* You can ask questions in Slack.
 * Read the examples carefully. They may require things that are not otherwise spec-
 ified in the subject.
 * And may the Force be with you!
@@ -389,10 +388,8 @@ time, and a message delimited by a space:
 2020-05-01 22:16:16,877 Calculating the counts of heads and tails
 
 * The second task is to write a method in the Research class that sends a message to a
-Slack channel using webhooks. The message should contain: “The report has been
-successfully created” or “The report hasn’t been created due to an error”. Yeah,
-we know that you do not have admin rights to create a custom integration in the
-School workspace, but be creative, create your own Slack workspace!
+Telegram channel using webhooks. The message should contain: “The report has been
+successfully created” or “The report hasn’t been created due to an error”.
 * In this exercise, config.py may have code in the global scope (for variables).
 * In this exercise, config.py and analytics.py do not have to contain the block if
 __name__ == ’__main__’.
